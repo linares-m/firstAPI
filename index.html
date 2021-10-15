@@ -1,0 +1,35 @@
+<!-- TODO: Make responsive -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js" defer></script>
+  <script type="text/javascript" src="scripts.js" defer></script>
+  <title>First API Implementation</title>
+</head>
+<body>
+  <header><h1>Studio Ghibli Film Recommendation</h1></header>
+  <button id="getRecced"type="button" name="button">Click here to get a recommendation from the catalog of Miyazaki films!</button>
+  <div class="container">
+    <div class="card">
+      <section>
+        <header>
+          <h2>Title</h2>
+        </header>
+        <textarea id="reccMe" name="title" rows="20" cols="21" disabled="true"></textarea>
+      </section>
+      <section>
+        <header>
+          <h2>Description</h2>
+        </header>
+        <textarea id="reccMe2" name="description" rows="20" cols="33" disabled="true"></textarea>
+      </section>
+    </div>
+  </div>
+  <div id="root">
+  </div>
+  <footer>Background Image Credit: <a href="https://www.deviantart.com/firedragonmatty/art/My-Neighbor-Totoro-Vector-417623056>firedragonmatty</a></footer>
+</body>
+</html>
