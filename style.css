@@ -1,0 +1,68 @@
+body {
+  display: grid;
+  justify-content: space-around;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/97475818-d5c8-489c-ac4c-78a19898cefb/d6wn40g-7a4f003d-287d-4d4c-88f7-f74f58171708.png/v1/fill/w_1035,h_772,strp/my_neighbor_totoro_vector_by_firedragonmatty_d6wn40g-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTU1IiwicGF0aCI6IlwvZlwvOTc0NzU4MTgtZDVjOC00ODljLWFjNGMtNzhhMTk4OThjZWZiXC9kNnduNDBnLTdhNGYwMDNkLTI4N2QtNGQ0Yy04OGY3LWY3NGY1ODE3MTcwOC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.fIKQ9waGqahEu8AgjB5GsorhFVc82HTdO7IVHy3e8eE');
+  transition: 2s;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+button, h1, h2, h3 {
+  font-family: 'arbutus slab';
+  text-align: center;
+  color:rgb(222 ,200, 236);
+  background-color: hsla(0, 0%, 0%, .75);
+  border-radius: 5px;
+}
+
+button{
+  font-size: 20px;
+  border:none;
+  border-radius: 10px;
+  padding: .5rem;
+  margin: .5rem;
+  outline: 1px solid white;
+}
+button:hover{
+  filter: brightness(1.5);
+  outline: 2px dashed white;
+}
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: .5rem;
+  padding: .5rem;
+  border: none;
+  display:grid;
+  grid-template-columns: 250px 370px;
+  justify-content: left;
+  align-items: start;
+  background-color: rgba(173, 216, 230, .45) ;
+  border-radius: 10px;
+}
+
+textarea {
+  border: none;
+  font: 20px 'arbutus slab';
+  color:black;
+  background-color:rgba(220 ,200, 236, .85);
+  resize:none;
+  padding: .25rem;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#reccMe{
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
