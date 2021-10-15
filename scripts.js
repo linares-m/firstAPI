@@ -21,7 +21,7 @@ request.onload = function () {
       console.log(reccTitle, reccDescription);
       document.querySelector('#reccMe').innerHTML =  reccTitle;
       document.querySelector('#reccMe2').innerHTML = reccDescription;
-    })sc
+    })
   } else {
     console.log('error')
   }
